@@ -19,11 +19,15 @@ StyleDNA analyzes clothing attributes, such as color, category, season, and styl
 ## Project Structure
 StyleDNA/
 |--- data/
-|    |-- raw/       #Original Kaggle dataset (not tracked by Git)
-|    |-- cleaned/   #Processed data ready for modeling
-|-- notebooks/      #Jupyter Notebooks (main application)
-|-- src/            #Reusable Python modules
-|-- docs/           #Written deliverables and documentation
+|    |-- raw/                   
+         |-- archive/           #Original Kaggle dataset (not tracked by Git)
+            |-- images/
+            |-- myntradataset/
+            |-- styles.csv
+|    |-- cleaned/               #Processed data ready for modeling
+|-- notebooks/                  #Jupyter Notebooks (main application)
+|-- src/                        #Reusable Python modules
+|-- docs/                       #Written deliverables and documentation
 
 
 ## Data Source
