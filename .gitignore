@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+*.egg-info/
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Data (raw files stay local)
+data/raw/
+
+
+# macOS
+.DS_Store
+
+
+# Virtual Environment
+venv/
+env/
